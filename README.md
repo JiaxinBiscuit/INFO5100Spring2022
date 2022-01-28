@@ -1,1 +1,3 @@
-# INFO5100Spring2022
+## INFO5100Spring2022
+
+git commit for homework1
