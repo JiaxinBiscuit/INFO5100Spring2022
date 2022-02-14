@@ -4,7 +4,7 @@ public class Shape {
     String name;
     String color;
     int area;
-    int perimeter;
+    double perimeter;
 
     public Shape (String n, String c){
         name = n;
@@ -16,7 +16,7 @@ public class Shape {
         return area;
     }
 
-    public int getPerimeter() {
+    public double getPerimeter() {
         return perimeter;
     }
 

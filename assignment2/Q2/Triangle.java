@@ -25,7 +25,7 @@ public class Triangle extends Shape{
     }
 
     @Override
-    public int getPerimeter(){
+    public double getPerimeter(){
         int perimeter = base * 3;
         return perimeter;
     }
