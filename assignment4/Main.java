@@ -1,7 +1,7 @@
 public class Main {
 
     public static Object lock = new Object();
-    public static ThreadSafeQueue<Integer> queue = new ThreadSafeQueue<>();
+    public static ThreadSafeQueue<Integer> threadSafeQueue = new ThreadSafeQueue<>();
 
     public static void main(String[] args) {
         Thread[] producer = new Thread[5];
@@ -16,8 +16,8 @@ public class Main {
             consumer[i].start();
         }
 
-        System.out.println(queue.peek());
-        System.out.println(queue.isEmpty());
+        System.out.println(threadSafeQueue.peek());
+        System.out.println(threadSafeQueue.isEmpty());
     }
 
 }
